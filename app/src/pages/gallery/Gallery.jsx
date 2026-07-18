@@ -1,3 +1,5 @@
+import CarouselComponent from '../../components/CarouselComponent/CarouselComponent';
+
 
 import './gallery.css';
 
@@ -16,6 +18,7 @@ const Gallery = () => {
                         <button>Join Us</button>
                     </a>
                 </div>
+                <CarouselComponent/>
             </div>
         </>
 
