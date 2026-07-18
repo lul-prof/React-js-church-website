@@ -1,3 +1,4 @@
+/* eslint-disable no-sequences */
 import React, { useState } from 'react'
 import './NavbarComponent.css'
 import { assets } from '../../assets/assets'

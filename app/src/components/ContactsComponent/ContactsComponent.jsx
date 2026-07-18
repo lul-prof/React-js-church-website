@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowLeft, FaArrowRight, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaYoutubeSquare } from 'react-icons/fa'
+import {  FaArrowRight, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaYoutubeSquare } from 'react-icons/fa'
 import './ContactsComponent.css'
 import { motion } from 'framer-motion'
 import toast from 'react-hot-toast'

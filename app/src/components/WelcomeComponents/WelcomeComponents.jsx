@@ -1,5 +1,4 @@
-import { FaFacebook, FaInstagram, FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
-import { BsTwitter } from "react-icons/bs";
+import {  FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import './WelcomeComponents.css'
 import {motion} from 'framer-motion'
 import {useNavigate} from 'react-router-dom'

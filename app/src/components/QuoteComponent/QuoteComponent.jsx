@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+/* eslint-disable array-callback-return */
+import { useState } from 'react';
 import './QuoteComponent.css'
 import { QuoteData } from '../../assets/QuoteData'
 import { FaAngleLeft, FaAngleRight, FaQuoteLeft, FaQuoteRight} from 'react-icons/fa'
