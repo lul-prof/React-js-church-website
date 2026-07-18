@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import outReach from './outreach.webp'
 import membership from './membership.webp'
 import training from './training.webp'
