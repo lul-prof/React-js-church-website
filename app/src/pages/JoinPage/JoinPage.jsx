@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import './JoinPage.css'
 import {FaArrowRight, FaFacebookMessenger, FaInstagramSquare, FaLocationArrow, FaMailchimp, FaPhoneSquare, FaSearchLocation, FaTwitter} from 'react-icons/fa'
