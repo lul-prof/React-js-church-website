@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: clamp(16px,18px,20px);
+    font-weight: 400px;
+    font-style: normal;
+}
+p{
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    color: rgb(65, 58, 58, 0.8);
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    text-align: justify;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    color: rgb(65, 58, 58, 0.8);
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    text-align: justify;
+    font-size: 16px;
+}
+button{
+    font-size: clamp(16px,16px,18px);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+}
+label{
+    font-size: clamp(16px,16px,18px);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+}
+h2{
+    letter-spacing: 10px;
+    font-size: clamp(32px,40px,42px);
+    font-weight: 200;
+    font-family: "Noto Serif", serif;
+}
+h3{
+    letter-spacing: 10px;
+    font-size: clamp(28px,30px,32px);
+    font-weight: 200;
+    font-family: "Noto Serif", serif;
+}
+h4{
+   letter-spacing: 10px;
+    font-size: clamp(20px,24px,28px);
+    font-weight: 200;
+    font-family: "Noto Serif", serif; 
+}
+h5{
+    letter-spacing: 5px;
+    font-size: clamp(16px,18px,20px);
+    font-weight: 300;
+}
+h6{
+    letter-spacing: 10px;
+    font-size: clamp(12px,14px,18px);
+    font-weight: 300;
+}
+li{
+    font-size: clamp(12px,16px,18px);
+    font-family: "PT Serif", serif;
+}
+.container{
+    width: 100%;
+    padding: 60px 120px;
+    overflow: hidden;
+}
+
+@media (max-width:500px) {
+.container{
+    padding: 30px 15px;
+}  
+h2{
+    font-size: clamp(18px,28px,32px);
+} 
+h3{
+    font-size: clamp(18px,20px,24px);
+}
+h4{
+    font-size: clamp(16px,18px,20px);
+}
+}
+
+@media (max-width:800px) and (min-width:501px) {
+.container{
+    padding:30px 60px;
+}  
+h2{
+    font-size: clamp(28px,32px,36px);
+} 
+h3{
+    font-size: clamp(20px,24px,28px);
+}
+h4{
+    font-size: clamp(18px,20px,24px);
+}
+}

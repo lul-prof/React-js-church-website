@@ -1,0 +1,204 @@
+.quote{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 24px;
+   align-items: center;
+}
+.quote .quote-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.quote .quote-left .quote-left-item span{
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(18,18,18,0.3);
+    box-shadow: 0 2px 4px rgba(18,18,18,0.3);
+    backdrop-filter: 10px;
+    -webkit-backdrop-filter: blur(8px);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100px;
+}
+.quote .quote-left .quote-left-item span:hover{
+    cursor: pointer;
+}
+.quote .quote-left .quote-left-img{
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(18,18,18,0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(18,18,18,0.3);
+    padding: 2px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: 8px;
+}
+.quote .quote-left .quote-left-img img{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+.quote .quote-right{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.quote .quote-right .quote-right-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.quote .quote-right .quote-right-header .quote-right-header-top{
+    width: 15%;
+    height: 3px;
+    opacity: 0.5;
+    background-color:#6E0983;
+}
+.quote .quote-right .quote-right-quote{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.quote .quote-right .quote-right-quote p{
+    font-size: 18px;
+}
+.quote .quote-right .quote-right-quote .end{
+    align-self: flex-end;
+}
+
+
+@media (max-width:500px) {
+.quote{
+   display: flex;
+   flex-direction: column-reverse;
+}
+.quote .quote-left{
+    gap: 12px;
+}
+.quote .quote-left .quote-left-item span{
+    border-radius: 100px;
+}
+.quote .quote-left .quote-left-img{
+    background: rgba(255,255,255,0.6);
+}
+.quote .quote-left .quote-left-img img{
+    width: 100%;
+}
+.quote .quote-right{
+    gap: 24px;
+}
+.quote .quote-right .quote-right-header{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 12px;
+}
+.quote .quote-right .quote-right-header .quote-right-header-top{
+    background-color:#6E0983;
+    width: 25%;
+}
+.quote .quote-right .quote-right-quote{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.quote .quote-right .quote-right-quote p{
+    font-size: 16px;
+} 
+.quote .quote-right .quote-right-details{
+    align-self: center;
+}
+}
+
+@media (max-width:800px) and (min-width:501px) {
+.quote{
+   display: flex;
+   flex-direction: column-reverse;
+}
+.quote .quote-left{
+    gap: 12px;
+}
+.quote .quote-left .quote-left-item span{
+    border-radius: 100px;
+}
+.quote .quote-left .quote-left-img{
+    background: rgba(255,255,255,0.6);
+}
+.quote .quote-left .quote-left-img img{
+    width: 100%;
+}
+.quote .quote-right{
+    gap: 24px;
+}
+.quote .quote-right .quote-right-header{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 12px;
+}
+.quote .quote-right .quote-right-header .quote-right-header-top{
+    background-color:#6E0983;
+    width: 25%;
+}
+.quote .quote-right .quote-right-quote{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.quote .quote-right .quote-right-quote p{
+    font-size: 16px;
+} 
+.quote .quote-right .quote-right-details{
+    align-self: center;
+}
+}
+
+@media (max-width:1050px) and (min-width:801px) {
+.quote{
+   display: flex;
+   flex-direction: column-reverse;
+}
+.quote .quote-left{
+    gap: 12px;
+}
+.quote .quote-left .quote-left-item span{
+    border-radius: 100px;
+}
+.quote .quote-left .quote-left-img{
+    background: rgba(255,255,255,0.6);
+}
+.quote .quote-left .quote-left-img img{
+    width: 100%;
+    max-height: 500px;
+}
+.quote .quote-right{
+    gap: 24px;
+}
+.quote .quote-right .quote-right-header{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 12px;
+}
+.quote .quote-right .quote-right-header .quote-right-header-top{
+    background-color:#6E0983;
+    width: 25%;
+}
+.quote .quote-right .quote-right-quote{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.quote .quote-right .quote-right-quote p{
+    font-size: 16px;
+} 
+.quote .quote-right .quote-right-details{
+    align-self: center;
+}   
+}

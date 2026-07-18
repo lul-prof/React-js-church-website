@@ -1,0 +1,153 @@
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.contacts .contacts-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+.contacts .contacts-left .contacts-left-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacts .contacts-left .contacts-left-bottom .contacts-left-bottom-item{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+.contacts .contacts-right{
+    background: rgba(128,128,128,0.3);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(18,18,18,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.contacts .contacts-right form{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.contacts .contacts-right form .form-class{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacts .contacts-right form .form-class input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.contacts .contacts-right form .form-btn button{
+    padding: 5px 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 100px;
+    background-color:#6E0983;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.contacts .contacts-right form .form-btn button:hover{
+    transition: 0.3s ease;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #6E0983;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+@media (max-width:500px) {
+.contacts{
+    grid-template-columns: 1fr;
+}
+.contacts .contacts-left{
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+}
+.contacts .contacts-left p{
+    text-align: center;
+}
+.contacts .contacts-left .contacts-left-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.contacts .contacts-left .contacts-left-bottom .contacts-left-bottom-item{
+    gap: 6px;
+    align-items: center;
+}
+.contacts .contacts-right{
+    background: rgba(128,128,128,0.3);
+}
+.contacts .contacts-right form{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.contacts .contacts-right form .form-class{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacts .contacts-right form .form-class input{
+    width: 100%;
+}
+.contacts .contacts-right form .form-btn button{
+    padding: 5px 10px;
+}
+
+}
+
+@media (max-width:800px) and (min-width:501px) {
+.contacts{
+    grid-template-columns: 1fr;
+}
+.contacts .contacts-left{
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+}
+.contacts .contacts-left p{
+    text-align: center;
+}
+.contacts .contacts-left .contacts-left-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.contacts .contacts-left .contacts-left-bottom .contacts-left-bottom-item{
+    gap: 6px;
+    align-items: center;
+}
+.contacts .contacts-right{
+    background: rgba(128,128,128,0.3);
+}
+.contacts .contacts-right form{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.contacts .contacts-right form .form-class{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacts .contacts-right form .form-class input{
+    width: 100%;
+}
+.contacts .contacts-right form .form-btn button{
+    padding: 5px 10px;
+}
+}

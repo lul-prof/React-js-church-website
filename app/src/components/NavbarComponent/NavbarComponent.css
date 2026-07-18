@@ -1,0 +1,122 @@
+.navbar{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background: rgba(255,255,255,0.6);
+    box-shadow: 0 2px 4px rgba(128,128,128,0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(8px);   
+}
+.navbar a{
+    text-decoration: none;
+    color: #000000;
+}
+.navbar .navbar-left{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.navbar .navbar-mid ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    text-align: center;
+}
+.navbar .navbar-mid ul li:hover{
+    cursor: pointer;
+    transform: translateY(3px);
+    transition: 0.3s ease;
+}
+.navbar .navbar-right{
+    display: none;
+}
+.navbar .navbar-right img{
+    width: 25px;
+    height: 25px;
+}
+.navbar .navbar-right img:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding: 2px;
+}
+
+.sidemenu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 60px 0;
+    display: none;
+}
+.sidemenu .sidemenu-top{
+    align-self: center;
+}
+.sidemenu .sidemenu-top img{
+    width: 25px;
+    height:25px;
+}
+.sidemenu .sidemenu-top img:hover{
+    cursor: pointer;
+    padding: 2px;
+    transition: 0.3s ease;
+    transform: translateX(-5px);
+}
+.sidemenu .sidemenu-mid{
+    align-self: center;
+}
+.sidemenu .sidemenu-mid ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.sidemenu .sidemenu-mid ul li:hover{
+    transform: translateX(5px);
+    transition: 0.3s ease;
+    color:#6E0983;
+}
+
+@media (max-width:620px) {
+.navbar{
+    padding: 10px;
+    gap: 12px;  
+}
+.navbar .navbar-mid{
+    display: none;
+}
+.navbar .navbar-right{
+    display: flex;
+}
+.navbar .navbar-right img{
+    width: 25px;
+    height: 25px;
+}
+.sidemenu{
+    width: 100%;
+}
+.sidemenu .sidemenu-top{
+    align-self: center;
+}
+.sidemenu .sidemenu-top img{
+    width: 25px;
+    height:25px;
+}
+.sidemenu .sidemenu-mid{
+    align-self: center;
+}
+.sidemenu .sidemenu-mid ul{
+    list-style: none;
+}
+}

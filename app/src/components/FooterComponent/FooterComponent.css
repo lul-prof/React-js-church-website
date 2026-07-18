@@ -1,0 +1,155 @@
+.footer{
+  background-color:#6E0983;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer .footer-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 30px 0;
+}
+.footer .footer-top .footer-top-class{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer .footer-top .footer-top-class .footer-top-class-header h4{
+  font-weight: 600;
+  color: #000000;
+} 
+.footer .footer-top .footer-top-class .footer-top-class-list ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 10px;
+}
+.footer .footer-top .footer-top-class .footer-top-class-list ul li:hover{
+  cursor: pointer;
+  transform: translateY(5px);
+  transition: 0.3s ease;
+}
+.footer .footer-top .footer-top-right{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer .footer-top .footer-top-right .footer-top-right-header h4{
+  font-weight: 600;
+  color: #000000;
+} 
+.footer .footer-top .footer-top-right-form form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer .footer-top .footer-top-right-form form input{
+  width: 100%;
+  padding: 5px 10px;
+  outline: 0;
+  border: 1px solid #FFFFFF;
+  background: transparent;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+.footer .footer-top .footer-top-right-form form button{
+  padding: 10px;
+  background: #FFFFFF;
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+.footer .footer-top .footer-top-right-form form button:hover{
+  cursor: pointer;
+}
+
+.footer .footer-mid{
+  border-top: 1px solid #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width:500px) {
+.footer{
+  gap: 12px;
+}
+.footer .footer-top{
+  flex-wrap: wrap-reverse;
+  padding: 15px 0;
+}
+.footer .footer-top .footer-top-class{
+  gap: 24px;
+}
+.footer .footer-top .footer-top-class .footer-top-class-list ul{
+  padding: 0 10px;
+}
+.footer .footer-top .footer-top-right{
+  gap: 24px;
+  width: 100%;
+}
+.footer .footer-top .footer-top-right .footer-top-right-header h4{
+  font-weight: 600;
+  color: #000000;
+} 
+.footer .footer-top .footer-top-right-form form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer .footer-top .footer-top-right-form form input{
+  width: 100%;
+}
+.footer .footer-top .footer-top-right-form form button{
+  width: 100%;
+}
+.footer .footer-mid{
+  padding: 10px;
+}
+}
+
+@media (max-width:800px) and (min-width:501px) {
+.footer{
+  gap: 12px;
+}
+.footer .footer-top{
+  flex-wrap: wrap-reverse;
+  padding: 30px 0;
+}
+.footer .footer-top .footer-top-class{
+  gap: 24px;
+}
+.footer .footer-top .footer-top-class .footer-top-class-list ul{
+  padding: 0 10px;
+}
+.footer .footer-top .footer-top-right{
+  gap: 24px;
+  width: 100%;
+}
+.footer .footer-top .footer-top-right .footer-top-right-header h4{
+  font-weight: 600;
+  color: #000000;
+} 
+.footer .footer-top .footer-top-right-form form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer .footer-top .footer-top-right-form form input{
+  width: 100%;
+}
+.footer .footer-top .footer-top-right-form form button{
+  width: 100%;
+}
+.footer .footer-mid{
+  padding: 10px;
+}
+}
